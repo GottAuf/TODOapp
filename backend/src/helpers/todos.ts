@@ -14,6 +14,7 @@ import { deleteTodoItem, updateTodoItem } from './todosAcess'
 //// TODO: Implement businessLogic
 export function todoBuilder(todoRequest: CreateTodoRequest, event: APIGatewayProxyEvent): TodoItem {
     const todoId = uuid.v4()
+    if (!todoRequest.name) return null
     const todo = {
         todoId: todoId,
         userId: getUserId(event),
