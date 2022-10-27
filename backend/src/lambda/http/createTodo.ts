@@ -20,7 +20,7 @@ export const handler = middy(
             statusCode: 201,
                 
             body: JSON.stringify({
-                createdTodo
+               "item":createdTodo
             })
         }
     }
