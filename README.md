@@ -1,6 +1,6 @@
 # Serverless TODO
 
-To implement this project, you need to implement a simple TODO application using AWS Lambda and Serverless framework. Search for all comments starting with the `TODO:` in the code to find the placeholders that you need to implement.
+This is a simple TODO application implemented using AWS Lambda and Serverless framework.
 
 # Functionality of the application
 
@@ -8,7 +8,7 @@ This application will allow creating/removing/updating/fetching TODO items. Each
 
 # TODO items
 
-The application should store TODO items, and each TODO item contains the following fields:
+The application stores TODO items, and each TODO item contains the following fields:
 
 * `todoId` (string) - a unique id for an item
 * `createdAt` (string) - date and time when an item was created
